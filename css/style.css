@@ -29,8 +29,25 @@ body {
   border-radius: 20px;
 }
 
+.header {
+  position: relative;
+}
 .header__image {
   max-width: 100%;
+}
+.header__banner {
+  position: absolute;
+  left: -0.5%;
+  top: 41px;
+}
+.header__text {
+  position: absolute;
+  top: 26%;
+  left: 6%;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #3e3e3e;
 }
 
 .trip-duration {
@@ -52,6 +69,15 @@ body {
 
 .options-list {
   list-style-image: url(/images/check.svg);
+}
+.options-list__item {
+  padding-left: 20px;
+  margin-bottom: 9px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b4b4b;
 }
 
 .time-block {
@@ -84,14 +110,16 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 41px;
   margin-bottom: 19px;
 }
 .footer__button {
-  max-width: 165px;
+  width: 135px;
   max-height: 36px;
+  margin-right: 9%;
   background: #fed74b;
   border: 0.5px solid #cba500;
   border-radius: 20px;
+  color: #404040;
 }/*# sourceMappingURL=style.css.map */
