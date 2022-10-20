@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 12px 0 12px;
+}
+
+.card {
+  margin: 30px 17px 30px 17px;
+  max-width: 341px;
+  max-height: 100%;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+.image-main {
+  max-width: 100%;
+}
+
+.trip-duration {
+  display: flex;
+  margin-left: 12px;
+}
+
+.duration-text {
+  padding-left: 9px;
+}
+
+.options-list {
+  list-style-image: url(/images/check.svg);
+}
+
+.time-block {
+  display: flex;
+  margin-left: 49px;
+  margin-right: 20px;
+}
+
+.time-item {
+  width: 63px;
+  height: 24px;
+  margin-right: 4px;
+  background: #D9E8FF;
+  border-radius: 11px;
+}
+
+.price-block {
+  margin-left: 19px;
+}
